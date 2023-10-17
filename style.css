@@ -205,3 +205,51 @@ h3 {
     text-align: left;
 }
 
+/* start testimonial section */
+.testimonial {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.testimonial >h3, p {
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    text-align: left;
+}
+
+.testimonial-col p, h3 {
+    text-align: left;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin-right: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-col p {
+    font-weight: 300;
+}
+
+.testimonial-col .fa-solid {
+    color: #f44336;
+}
+
+@media (min-width: 992px) {
+    .testimonial-col {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
