@@ -253,3 +253,42 @@ h3 {
         align-items: flex-start;
     }
 }
+
+/* start cta section */
+.cta {
+    width: 80%;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/banner2.jpg");
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cta h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    border: 1px solid crimson;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    transition: .4s;
+}
+
+.cta-btn:hover {
+    background: crimson;
+}
+
+@media (max-width: 700px) {
+    .cta h1 {
+        font-size: 20px;
+    }
+}
