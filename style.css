@@ -315,3 +315,140 @@ h3 {
     border-radius: 4px;
     padding: 10px;
 }
+
+/* start subheader section */
+.sub-header {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-header h1 {
+    text-align: center;
+    color: #fff;
+    font-size:40px;
+    margin-top: 50px;
+}
+
+/* start about section */
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-col p {
+    text-align: left;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+}
+
+.about-col button.cta-btn {
+    color: crimson;
+}
+
+.about-col button.cta-btn:hover {
+    color: #fff;
+}
+
+/* start blog section */
+.blog-content {
+    width: 80%;
+    padding: 60px 0;
+    margin: auto;
+}
+
+.blog-left {
+    flex-basis: 65%;
+}
+
+.blog-left img {
+    width: 100%;
+}
+
+.blog-left h2 {
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p {
+    text-align: left;
+}
+
+.blog-right {
+    flex-basis: 32%;
+}
+
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.comment-box form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #ddd;
+    transition: .3s;
+}
+
+.comment-box form input:focus, textarea:focus {
+    border-color: crimson;
+}
+
+.comment-box .blog-btn {
+    padding: 10px 20px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.comment-box .blog-btn:hover {
+    transform: scale(1.11);
+}
+
+.blog-right h3 {
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
