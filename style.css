@@ -169,3 +169,39 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+
+
+/* start facility section*/
+.facility {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.facility-col { 
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align-last: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.facility-col img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.facility-col img:hover {
+    transform: scale(.9);
+}
+
+.facility-col p {
+    padding: 0;
+    text-align: left;
+}
+
