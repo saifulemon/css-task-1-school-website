@@ -110,5 +110,62 @@ nav img {
 h3 {
     text-align: center;
     font-weight: 600;
-    margin: 10px 0;
+}
+
+@media (max-width: 992px) {
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* start campus section */
+.campus {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.campus-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.campus-col img {
+    width: 100%;
+    display: block;
+}
+
+.layer {
+    position: absolute;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in;
+}
+
+.layer:hover {
+    background: rgba(225, 0, 0, 0.7);
+}
+
+.layer h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s;
+    color: #ffffff;
+}
+
+.layer:hover h2 {
+    bottom: 49%;
+    opacity: 1;
 }
